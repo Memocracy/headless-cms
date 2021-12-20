@@ -26,7 +26,7 @@ define('NONCE_SALT',       $_ENV["NONCE_SALT"]);
 
 /**#@-*/
 
-define('WP_DEBUG',      false);
+define('WP_DEBUG',      $_ENV["WP_DEBUG"] === "true" ? true : false);
 define('DB_NAME',       $_ENV["DB_NAME"]);
 define('DB_USER',       $_ENV["DB_USER"]);
 define('DB_PASSWORD',   $_ENV["DB_PASSWORD"]);
