@@ -1,4 +1,5 @@
-/wordpress/
+/wordpress/*
+!/wordpress/wp-config.php
 /vendor/
 
 # Plugins
