@@ -1,0 +1,10 @@
+/wordpress/
+/vendor/
+
+# Plugins
+/wp-content/plugins/*
+!/wp-content/plugins/memocracy
+
+# Themes
+/wp-content/themes/*
+!/wp-content/themes/disablefrontend/
