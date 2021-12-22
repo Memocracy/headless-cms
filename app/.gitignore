@@ -3,7 +3,7 @@
 
 # Plugins
 /dist/wp-content/plugins/*
-!/dist/wp-content/plugins/memocracy
+!/dist/wp-content/plugins/headless-cms-plugin
 
 # Themes
 /dist/wp-content/themes/*
