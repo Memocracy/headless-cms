@@ -4,6 +4,10 @@
 
 Headless CMS for Memocracy project.
 
+## Docs
+
+* Read [deploy notes](docs/deploy.md).
+
 ---
 
 **Project info**
