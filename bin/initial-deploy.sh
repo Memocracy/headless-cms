@@ -1,16 +1,6 @@
-#!/bin/sh
-mydir="${0%/*}/../app"
-echo "Running composer"
-composer install -d "$mydir"/dist
+#!/bin/bash
+source "${0%/*}/__init.sh"
+source "${0%/*}/__composer-install.sh"
+source "${0%/*}/__additional-files.sh"
 
-if [ -f "$mydir"/dist/wp-content/plugins/headless-cms-plugin/headless-cms-plugin.php ]; then
-  composer install -d "$mydir"/dist/wp-content/plugins/headless-cms-plugin
-else
-  echo "Error: please clone this repository with submodules!"
-fi
-
-echo "Running deployment of additional files"
-cp "$mydir"/deploy/wp-config.php "$mydir"/dist/wordpress/
-rm -r "$mydir"/dist/wordpress/wp-content
-
-echo "Remember to create .env file in the dist directory!"
+echo -e "${magenta}✔️ Remember to create .env file in the dist directory!${clear}"
