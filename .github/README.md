@@ -7,7 +7,7 @@ Headless CMS for Memocracy project.
 ## How to run?
 
 ```bash
-git clone --recursive https://github.com/Memocracy/headless-cms.git
+git clone https://github.com/Memocracy/headless-cms.git
 cd headless-cms
 ./app/[initial-deploy.sh|initial-deploy-docker.sh]
 ```
