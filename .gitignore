@@ -1,3 +1,4 @@
 db
 .env
 composer-setup.php
+.gitmodules
