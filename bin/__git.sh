@@ -1,5 +1,5 @@
 #!/bin/bash
 echo -e "${green}🍿 Running git to fetch updates${clear}"
-git -C "$rootdir" fetch
-git -C "$rootdir" pull
-git -C "$rootdir" submodule update --init --remote
+git -c "$rootdir" fetch
+git -c "$rootdir" pull
+git -c "$rootdir" submodule update --init --remote
