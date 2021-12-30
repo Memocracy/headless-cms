@@ -4,6 +4,22 @@
 
 Headless CMS for Memocracy project.
 
+## How to run?
+
+```bash
+git clone --recursive https://github.com/Memocracy/headless-cms.git
+cd headless-cms
+./app/[initial-deploy.sh|initial-deploy-docker.sh]
+```
+
+`recursive` option is needed to clone submodules.
+
+To update submodules run:
+
+```bash
+git submodule update --init --remote
+```
+
 ## Docs
 
 * Read [deploy notes](docs/deploy.md).
