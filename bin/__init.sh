@@ -13,7 +13,7 @@ rootdir="${0%/*}/.."
 
 if [ -f "$rootdir"/.env ]; then
   echo -e "${magenta}🔥 Using local .env file${clear}"
-  export $(grep -v '^#' .env | xargs -d '\n')
+  source "$rootdir"/.env
 
   if [ $LOCAL_COMPOSER = "true" ]; then
     echo -e "${magenta}✨ Using local composer${clear}"
