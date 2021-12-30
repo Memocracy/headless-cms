@@ -21,4 +21,7 @@ if [ -f "$rootdir"/.env ]; then
   else
     COMPOSER="composer"
   fi
+else
+  echo -e "${red}🤕 You need .env file in a root directory to deploy${clear}"
+  exit
 fi
