@@ -6,13 +6,15 @@ Headless CMS for Memocracy project.
 
 ## How to run?
 
+Please set up your deployment vars according to environment using `.env` file.
+
 ```bash
 git clone https://github.com/Memocracy/headless-cms.git
 cd headless-cms
+cp .env-example .env
+nano .env
 ./app/[initial-deploy.sh|initial-deploy-docker.sh]
 ```
-
-`recursive` option is needed to clone submodules.
 
 To update submodules run:
 
