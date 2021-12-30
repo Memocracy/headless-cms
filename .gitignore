@@ -3,3 +3,4 @@ db
 composer-setup.php
 .gitmodules
 headless-cms-plugin
+*.diff
