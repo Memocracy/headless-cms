@@ -1,2 +1,0 @@
-# headless-cms
-Headless CMS
