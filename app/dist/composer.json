@@ -23,8 +23,6 @@
     }
   ],
   "config": {
-    "allow-plugins": {
-      "johnpbloch/wordpress-core-installer": true
-    }
+    "allow-plugins": true
   }
 }
