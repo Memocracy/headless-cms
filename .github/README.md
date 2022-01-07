@@ -22,6 +22,10 @@ To update submodules run:
 git submodule update --init --remote
 ```
 
+## Plugins
+
+Please use [WP Packagist](https://wpackagist.org/) and Composer.
+
 ## Docs
 
 * Read [deploy notes](docs/deploy.md).
