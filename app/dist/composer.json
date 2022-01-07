@@ -1,7 +1,9 @@
 {
   "require": {
     "johnpbloch/wordpress": ">=5.8",
-    "vlucas/phpdotenv": "^5.4"
+    "vlucas/phpdotenv": "^5.4",
+    "wpackagist-plugin/wp-gatsby":">=2.1.1",
+    "wpackagist-plugin/wp-graphql":">=1.6.10"
   },
   "extra": {
     "installer-paths": {
