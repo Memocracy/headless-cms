@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08072560e98d3c7b623b2e9f08cba712",
+    "content-hash": "0fcd2ae7ec658dd350d0ae3c8db33a4f",
     "packages": [
         {
             "name": "composer/installers",
@@ -759,6 +759,24 @@
             "time": "2021-12-12T23:22:04+00:00"
         },
         {
+            "name": "wpackagist-plugin/post-types-order",
+            "version": "1.9.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/post-types-order/",
+                "reference": "tags/1.9.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/post-types-order.1.9.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/post-types-order/"
+        },
+        {
             "name": "wpackagist-plugin/wp-gatsby",
             "version": "2.1.1",
             "source": {
@@ -778,15 +796,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-graphql",
-            "version": "1.6.10",
+            "version": "1.6.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-graphql/",
-                "reference": "tags/1.6.10"
+                "reference": "tags/1.6.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.10.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.11.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
