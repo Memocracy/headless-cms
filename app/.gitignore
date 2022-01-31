@@ -8,3 +8,6 @@
 # Themes
 /dist/wp-content/themes/*
 !/dist/wp-content/themes/disablefrontend/
+
+# Uploads
+/dist/wp-content/uploads

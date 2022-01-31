@@ -25,3 +25,7 @@ Options -Indexes
   Order allow,deny
   Deny from all
 </Files>
+
+# <Files "setup-config.php">
+#     Allow from all
+# </Files>

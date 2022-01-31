@@ -1,7 +1,11 @@
 {
   "require": {
     "johnpbloch/wordpress": ">=5.8",
-    "vlucas/phpdotenv": "^5.4"
+    "vlucas/phpdotenv": "^5.4",
+    "wpackagist-plugin/wp-gatsby":">=2.1.1",
+    "wpackagist-plugin/wp-graphql":">=1.6.10",
+    "wpackagist-plugin/post-types-order":"1.9.7",
+    "wpackagist-plugin/advanced-custom-fields":"5.11.4"
   },
   "extra": {
     "installer-paths": {
@@ -21,8 +25,6 @@
     }
   ],
   "config": {
-    "allow-plugins": {
-      "johnpbloch/wordpress-core-installer": true
-    }
+    "allow-plugins": true
   }
 }

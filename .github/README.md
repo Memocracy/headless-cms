@@ -22,6 +22,14 @@ To update submodules run:
 git submodule update --init --remote
 ```
 
+## Write privileges
+
+Please remember that for writing privileges your `dist` directory should be owned by `www-data.www-data`.
+
+## Plugins
+
+Please use [WP Packagist](https://wpackagist.org/) and Composer.
+
 ## Docs
 
 * Read [deploy notes](docs/deploy.md).
