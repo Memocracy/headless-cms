@@ -13,7 +13,7 @@ git clone https://github.com/Memocracy/headless-cms.git
 cd headless-cms
 cp .env-example .env
 nano .env
-./app/[initial-deploy.sh|initial-deploy-docker.sh]
+./bin/[initial-deploy.sh|initial-deploy-docker.sh]
 ```
 
 To update submodules run:
