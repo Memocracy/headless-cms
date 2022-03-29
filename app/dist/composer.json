@@ -7,7 +7,8 @@
     "wpackagist-plugin/post-types-order":"^1.9.7",
     "wpackagist-plugin/advanced-custom-fields":"^5.11.4",
     "wpackagist-plugin/acf-image-aspect-ratio-crop":"^6.0.1",
-    "wp-graphql/wp-graphql-acf": "^0.5.3"
+    "wp-graphql/wp-graphql-acf": "^0.5.3",
+    "wpackagist-plugin/easy-wp-smtp": "^1.4.7"
   },
   "extra": {
     "installer-paths": {
