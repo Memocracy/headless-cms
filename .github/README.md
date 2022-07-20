@@ -34,6 +34,10 @@ Please use [WP Packagist](https://wpackagist.org/) and Composer.
 
 * Read [deploy notes](docs/deploy.md).
 
+## ACF settings
+
+Check `.github/acf/` directory for current version.
+
 ---
 
 **Project info**
