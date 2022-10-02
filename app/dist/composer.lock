@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b942d185e6934c584accf6a1dcab93c3",
+    "content-hash": "b7145dec37ad4a7becc2991eaa76b347",
     "packages": [
         {
             "name": "composer/installers",
@@ -848,15 +848,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "5.12.3",
+            "version": "6.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/5.12.3"
+                "reference": "tags/6.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.12.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.0.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
